@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import sym from './symmetry.png';
 import './App.css';
 
 class App extends Component {
@@ -7,18 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <img src={sym} className="App-cube rotate-img" alt="cube" height={100} width={100} style={{shadow: '1px'}}/>
         </header>
       </div>
     );
